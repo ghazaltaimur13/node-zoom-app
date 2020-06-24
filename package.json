@@ -1,0 +1,27 @@
+{
+  "name": "node-zoom-app",
+  "version": "1.0.0",
+  "description": "Zoom App Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Ghazal Taimur Malik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
